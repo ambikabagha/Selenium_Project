@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Royal Sundaram Test Automation Suite" parallel="testes" thread-count="2">
+
+<test name="HealthCare Feature Test">
+
+<parameter name="browser" value="chrome"/>
+
+<classes>
+
+<class name="parallelTests.MultiBrowserTesting"/>
+
+</classes>
+
+</test>
+
+<test name="HealthCare Feature-1 Test">
+
+<parameter name="browser" value="firefox"/>
+
+<classes>
+
+<class name="parallelTests.MultiBrowserTesting"/>
+
+</classes>
+
+</test>
+
+</suite>
